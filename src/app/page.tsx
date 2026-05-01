@@ -396,10 +396,9 @@ export default function Home() {
       </section>
 
       <footer className="bg-[#17212b] px-5 py-12 text-center text-white">
-        <h2 className="text-2xl font-black">Japan to Korea Travel Guide</h2>
+        <h2 className="text-2xl font-black">mono-x corporation</h2>
         <p className="mx-auto mt-4 max-w-3xl text-xs leading-6 text-white/42">
-          Photo credits: Wikimedia Commons contributors including Janine Dupree, U0894629, Bgag,
-          Richard Mortel, Teemeah, SJ Yang, Startandstar.
+          manapuraza soso ? feels so good !
         </p>
       </footer>
     </main>
