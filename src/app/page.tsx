@@ -344,7 +344,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="packing-list-2" className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12">
+      <section id="packing-list" className="mx-auto max-w-7xl">
         <div className="section-heading">
           <p>Travel Essentials</p>
           <h2>荷物リスト</h2>
