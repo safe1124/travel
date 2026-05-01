@@ -1,5 +1,4 @@
 import Image from "next/image";
-import NaverMap from "@/components/NaverMap";
 
 const arrivalRoute = [
   ["11:10", "東京・成田空港 出発", "LJ202 / 搭乗ゲートと手荷物条件を前日に確認"],
@@ -291,16 +290,6 @@ export default function Home() {
               </article>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section id="map-section" className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12">
-        <div className="section-heading">
-          <p>Location Guide</p>
-          <h2>おすすめカフェ＆スポット</h2>
-        </div>
-        <div className="mt-8 h-[500px] w-full">
-          <NaverMap />
         </div>
       </section>
 
