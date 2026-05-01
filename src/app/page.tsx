@@ -293,6 +293,24 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="starbucks-guide" className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12">
+        <div className="section-heading">
+          <p>Cafe Recommendation</p>
+          <h2>おすすめのスターバックス</h2>
+        </div>
+        <div className="mt-8 overflow-hidden rounded-[2rem] shadow-2xl border border-gray-100 bg-white p-4 sm:p-8">
+          <div className="relative aspect-[3/4] w-full sm:aspect-[707/1000]">
+            <Image
+              src="/images/starbucks-guide.png"
+              alt="おすすめのスターバックス 7つの特別な店舗"
+              fill
+              className="object-contain"
+              sizes="(min-width: 1280px) 1200px, 100vw"
+            />
+          </div>
+        </div>
+      </section>
+
       <section id="food" className="bg-[#17212b] py-16 text-white">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
           <div className="section-heading light">
