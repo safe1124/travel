@@ -344,16 +344,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="travel-checklist" className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12">
+      <section id="packing-list" className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12">
         <div className="section-heading">
-          <p>Essential Tips</p>
-          <h2>旅行のチェックリスト & ガ이드</h2>
+          <p>Preparation Guide</p>
+          <h2>持ち物リスト</h2>
         </div>
         <div className="mt-8 overflow-hidden rounded-[2rem] shadow-2xl border border-gray-100 bg-white p-4 sm:p-8">
           <div className="relative aspect-[3/4] w-full sm:aspect-[707/1000]">
             <Image
-              src="/images/additional-guide.png"
-              alt="旅行のチェックリスト"
+              src="/images/packing-list.png"
+              alt="持ち物リスト"
               fill
               className="object-contain"
               sizes="(min-width: 1280px) 1200px, 100vw"
